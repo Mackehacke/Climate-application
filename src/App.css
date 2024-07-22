@@ -1,0 +1,301 @@
+/* === GOOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/* === TYPOGRAFI === */
+h1 {
+  font-family: 'Reenie Beanie', cursive !important;
+  font-size: 6em !important;
+  color: #003554 !important;
+}
+
+h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 3.75em !important;
+}
+
+h3 {
+  font-size: 2.34em !important;
+}
+
+h4 {
+  font-size: 1.46em !important;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+.uppdaterad {
+  padding: 2%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.quizFont {
+  font-family: 'Audiowide', sans-serif;
+}
+
+/* === NAVIGATION === */
+.navigation {
+  font-family: 'Roboto', sans-serif !important;
+} 
+
+/* Ändrar färg på länkarna i navigationen samt teckenstorlek. */
+.navigation a {
+  color: #ffffff !important;
+  font-size: 2.5em;
+}
+
+/* När en länk hovras över får länken fet stil och en bakgrundsfärg. */
+.navigation a:hover {
+  font-weight: bold;
+  background-color: #6E9c92;
+}
+
+/* === CONTAINERS === */
+
+/* Denna container styr designen på första stycket på startsidan. */
+.textContainerStart1 {
+  background-color: #D1E4D5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 3%;
+}
+
+/* Denna container styr designen på andra stycket på startsidan. */
+.textContainerStart2 {
+  background-color: #D1E4D5;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 3%;
+}
+
+/* Denna container styr designen på styckena på fossilsidan. */
+.textContainerFossile {
+  background-color: #D1E4D5;
+  margin: 0 auto;
+  width: 70%;
+  padding: 3rem;
+}
+
+/* h2-elementet på fossilsidan får en bakgrundsfärg och får lite margin från toppen. */
+.hContainerFossile {
+  color: #ffffff;
+  background-color: #003554;
+  padding: 2rem;
+  width: 30%;  
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* h2-elementet på quizsidan får en bakgrundsfärg och får lite margin från toppen. */
+.hContainerQuiz {
+  color: #ffffff;
+  background-color: #003554;
+  padding: 2rem;
+  width: 25%;  
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* === KNAPPAR === */
+
+/* Quiz-knappen hamnar i mitten och blir 40% i bredd. */
+.quiz_knapp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* När quiz-knappen hovras över får muspekaren en pointer-effekt. */
+.quiz_knapp:hover {
+  cursor: pointer;
+}
+
+/* === HEADER === */
+
+/* Koderna nedan styr designen på headern och ger headern en bakgrundsbild. */
+header {
+  background-image: url('header_img.png'); 
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20rem;
+}
+
+/* Logotypen får lite padding från vänster. */
+.logo {
+  padding-left: 3%;
+}
+
+/* === FOOTER === */
+
+/* Koderna nedan styr designen på footern. */
+footer {
+  background-color: #003554;
+  padding: 1%;
+}
+
+/* Koderna nedan styr placeringen på länkarna (sociala ikonerna) i footern. */
+footer a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
+  padding-left: 0.063rem;
+  padding-top: 0.938rem;
+  margin-right: 1.25rem;
+  float: right;
+}
+
+
+/* === BILDER === */
+
+/* Koderna nedan styr designen på bilbilden på fossilsidan. */
+.bilbild_fossil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2rem;
+}
+
+/* Koderna nedan styr designen på bensinbilden på fossilsidan. */
+.bensinBild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Bildspelet */
+.imageSliderStyles {
+  width: 70%;
+  height: 50rem;
+  margin: 0 auto;
+}
+
+/* === PRATBUBBLOR === */
+.pratbubblastart {
+  width: 35%;
+  margin-left: 50%;
+}
+
+.pratbubblafossila {
+  height: 15%;
+  width: 25%;
+  margin-left: 50%;
+}
+
+/* === YOUTUBE VIDEOR === */
+.startVideo {
+  width: 60%;
+  height: 40rem;
+}
+
+.fossilVideo {
+  width: 60%;
+  height: 45rem;
+}
+
+/* === QUIZ === */
+
+/* Här finns all CSS som styr vilka färger som ska användas för knappar och text i quizet. */
+.questionComponent {
+  color: #ffffff !important;
+}
+
+.forwardButton {
+  color: #ffffff !important;
+  background-color: #003554 !important; 
+}
+
+.backButton {
+  color: #ffffff !important;
+  background-color: #567B74 !important;
+}
+
+.finishButton {
+  color: #ffffff !important;
+  background-color: #397F7D !important;
+}
+
+.closeButton {
+  color: #ffffff !important;
+  background-color: #397F7D !important;
+}
+
+/* === MEDIA QUERY FÖR MINDRE SKÄRMAR (DESKTOP) === */
+@media only screen and (min-width: 801px) and (max-width: 2250px) {
+
+  .textContainerStart1 {
+    margin-top: 10%;
+  }
+
+  .textContainerFossile {
+    width: 80%;
+  }
+
+  .bilbild_fossil {
+    width: 90%;
+  }
+
+  .bensinBild {
+    width: 70%;
+  }
+
+  .pratbubblafossila {
+    width: 40%;
+  }
+
+  .imageSliderStyles {
+    height: 25rem;
+  }
+ 
+  .hContainerFossile {
+    width: 45%;
+  }
+
+  .hContainerQuiz {
+    width: 35%;
+  }
+
+  .startVideo {
+    height: 25rem;
+  }
+
+  .fossilVideo {
+    width: 70%;
+    height: 30rem;
+  }
+
+  h1 {
+    font-size: 4.5em !important;
+  }
+
+  h2 {
+    font-size: 2.81em !important;
+  }
+
+  h3 {
+    font-size: 1.75em !important;
+  }
+
+  h4 {
+    font-size: 1.09em !important;
+  }
+
+  .navigation a {
+    font-size: 1.5em;
+  }
+}
+
+

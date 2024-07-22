@@ -1,0 +1,90 @@
+[
+  {
+    "course": [7, 4, 3],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Hur många glaciärer förekommer i Sverige?",
+    "correct_answer": "300st",
+    "incorrect_answers": ["500st", "100st"]
+  },
+  {
+    "course": [4, 3],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Hur mycket rör sig en glaciär under en dag?",
+    "correct_answer": "Några centimeter",
+    "incorrect_answers": ["2 meter", "5 meter"]
+  },
+  {
+    "course": [4, 3],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Vilket alternativ är den största källan till ustläpp av växthusgaser?",
+    "correct_answer": "Fossila bränslen",
+    "incorrect_answers": ["Jordbruk", "Skogsavverkning"]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Vad är ett exempel på fossila bränslen?",
+    "correct_answer": "Olja",
+    "incorrect_answers": ["Uran", "Vatten"]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Kan klimatförändringar ske naturligt?",
+    "correct_answer": "Ja",
+    "incorrect_answers": ["Nej"]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Är bensin ett fossilt bränsle?",
+    "correct_answer": "Ja",
+    "incorrect_answers": ["Nej"]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Kan fossila bränslen ta slut?",
+    "correct_answer": "Ja",
+    "incorrect_answers": ["Nej"]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Vad kommer att ske om vi fortsätter att släppa ut växthusgaser i samma takt som nu?",
+    "correct_answer": "Jordens medeltemperatur kommer att stiga",
+    "incorrect_answers": [
+      "Ingenting",
+      "Havets vattennivåer kommer att sjunka",
+      "Det blir kallare"
+    ]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Varför är det riskabelt med de snabba klimatförändringarna som sker nu?",
+    "correct_answer": "Ekosystem hinner inte anpassa sig",
+    "incorrect_answers": [
+      "Det är inte riskabelt",
+      "Ekosystem anpassar sig",
+      "Jordens medeltemperatur sjunker"
+    ]
+  },
+  {
+    "course": [7],
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Vem bär störst skuld till de snabba klimatförändringarna som sker nu?",
+    "correct_answer": "Människan",
+    "incorrect_answers": ["Djuren", "Grannen", "Jultomten"]
+  }
+]
